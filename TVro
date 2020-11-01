@@ -1,7 +1,10 @@
 #EXTM3U
-#EXTINF:-1,ACASA
+#EXTINF:-1,PRO TV 
 #EXTVLCOPT:http-user-agent=stream
-http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/e107c7ca255c800.m3u8
+http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/3a52ed3f472fbdb.m3u8
+#EXTINF:-1,KANAL D 
+#EXTVLCOPT:http-user-agent=stream
+http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/7b570b448ee1711.m3u8
 #EXTINF:-1,ANTENA 1
 #EXTVLCOPT:http-user-agent=stream
 http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/d38b087f5478d20.m3u8
@@ -77,9 +80,6 @@ http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/057f936c4c3ce
 #EXTINF:-1,MUSIC CHANNEL
 #EXTVLCOPT:http-user-agent=stream
 http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/39b4bef377421a9.m3u8
-#EXTINF:-1,PRO TV 
-#EXTVLCOPT:http-user-agent=stream
-http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/3a52ed3f472fbdb.m3u8
 #EXTINF:-1,TVR  1
 #EXTVLCOPT:http-user-agent=stream
 http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/44222d92cefc4bf.m3u8
@@ -92,17 +92,43 @@ http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/42ed92d56a239
 #EXTINF:-1,B1 
 #EXTVLCOPT:http-user-agent=stream
 http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/f19cdd878856e55.m3u8
-#EXTINF:-1,KANAL D 
-#EXTVLCOPT:http-user-agent=stream
-http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/7b570b448ee1711.m3u8
 #EXTINF:-1,Realitatea TV 
 #EXTVLCOPT:http-user-agent=stream
 http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/8d890b3059e988d.m3u8
 #EXTINF:-1,U TV 
 #EXTVLCOPT:http-user-agent=stream
 http://9ef693e4a1c9995c5003732394002e98.streamhost.cc/m3u8/Romania/ee55c63c31faaa4.m3u8
+##########################################################
+#EXTINF:0 ,⚽️DIGISPORT 1 HD
+http://84.54.148.38:8080/digisport1/index.m3u8
+# =========================== 
+#EXTINF:0 ,⚽️DIGISPORT 1 RO (udp)
+http://85.217.192.228:4080/udp/239.239.39.14:30000
+#EXTINF:0 ,⚽️DIGISPORT 2 RO (udp)
+http://85.217.192.228:4080/udp/239.239.39.20:30000 
+# =========================== 
+#EXTINF:0 ,⚽️EUROSPORT 1 (rds)
+http://82.76.40.76/digiedge2/eurosportehq.stream/index.m3u8?is=31&src=app&t=00000000000000000000000000000000
+#EXTINF:0 ,⚽️EUROSPORT 2 (rds)    
+http://82.76.40.76/digiedge2/eurosport2ehq.stream/index.m3u8?is=32&src=app&t=00000000000000000000000000000000
+# ===================
+#EXTINF:-1 ,🎬Bollywood TV
+http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodTVFilm/6.m3u8/Level(1677721)?start=LIVE&end=END
 #EXTINF:-1 ,🎬Bollywood Classic
 http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodClassic/6.m3u8/Level(1677721)?start=LIVE&end=END
+##########################################################
+#EXTINF:-1 ,▲Digi Animal World HD (rds)  
+http://edge76.rcs-rds.ro/digiedge2/digianimalworldehd.stream/index.m3u8?is=16&src=app&t=00000000000000000000000000000000
+#EXTINF:-1 ,▲Digi Life HD (rds)   
+http://edge76.rcs-rds.ro/digiedge2/digilifeehd.stream/index.m3u8?is=6&src=app&t=00000000000000000000000000000000
+#EXTINF:-1 ,▲Digi World HD (rds) 
+http://edge76.rcs-rds.ro/digiedge2/digiworldehd.stream/index.m3u8?is=5&src=app&t=00000000000000000000000000000000
+#EXTINF:-1 ,▲DISCOVERY (rds) 
+http://82.76.40.76/digiedge2/discoveryehq.stream/index.m3u8?is=71&src=app&t=00000000000000000000000000000000
+#EXTINF:-1 ,▲History HD (rds)  
+http://edge76.rcs-rds.ro/digiedge2/historychannelehd.stream/index.m3u8?is=20&src=app&t=00000000000000000000000000000000
+#EXTINF:-1 ,▲Travel Channel HD (rds)  
+http://edge76.rcs-rds.ro/digiedge2/travelchannelehd.stream/index.m3u8?is=21&src=app&t=00000000000000000000000000000000
 #EXTINF:-1 ,▲TLC (rds)  
 http://82.76.40.76/digiedge2/tlcehq.stream/index.m3u8?is=72&src=app&t=00000000000000000000000000000000
 #EXTINF:-1 ,▲E (rds)  
@@ -121,13 +147,3 @@ http://edge76.rcs-rds.ro/digiedge2/viasatnatureehq.stream/index.m3u8?is=42&src=a
 http://edge76.rcs-rds.ro/digiedge2/bbcearthehq.stream/index.m3u8?is=67&src=app&t=00000000000000000000000000000000
 #EXTINF:-1 ,▲CBS REALITY (rds)  
 http://82.76.40.76/digiedge2/cbsrealityehq.stream/index.m3u8?is=65&src=digi-online.ro&t=00000000000000000000000000000000
-#EXTINF:-1 ,▲Tv Paprika (rds)  
-http://edge76.rcs-rds.ro/digiedge2/tvpaprikaehq.stream/index.m3u8?is=39&src=app&t=00000000000000000000000000000000
-##########################################################
-#EXTINF:0 ,⚽️DIGISPORT 1 HD
-http://84.54.148.38:8080/digisport1/index.m3u8
-# =========================== 
-#EXTINF:0 ,⚽️DIGISPORT 1 RO (udp)
-http://85.217.192.228:4080/udp/239.239.39.14:30000
-#EXTINF:0 ,⚽️DIGISPORT 2 RO (udp)
-http://85.217.192.228:4080/udp/239.239.39.20:30000 
